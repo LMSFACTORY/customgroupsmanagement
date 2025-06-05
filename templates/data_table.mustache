@@ -1,0 +1,37 @@
+<table id="data-table" class="generaltable">
+  <thead>
+    <tr>
+      <th>Course ID</th>
+      <th>Course Name</th>
+      <th>Visible</th>
+      <th># Stagiaires</th>
+      <th>Session Status</th>
+      <th>Lieu/Distance</th>
+      <th>Group Name</th>
+      <th>Group Desc.</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Formateurs</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#rows}}
+    <tr>
+      <td>{{courseid}}</td>
+      <td>{{coursefullname}}</td>
+      <td>{{#visible}}Yes{{/visible}}{{^visible}}No{{/visible}}</td>
+      <td>{{stagiairecount}}</td>
+      <td>{{sessionstatus}}</td>
+      <td>{{lieu_distance}}</td>
+      <td>{{groupname}}</td>
+      <td>{{groupdescription}}</td>
+      <td>{{sessionstart}}</td>
+      <td>{{sessionend}}</td>
+      <td>{{formateurs}}</td>
+    </tr>
+    {{/rows}}
+    {{^rows}}
+    <tr><td colspan="11">No records found.</td></tr>
+    {{/rows}}
+  </tbody>
+</table>

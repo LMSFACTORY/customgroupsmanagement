@@ -1,0 +1,37 @@
+<?php
+
+$string['pluginname'] = 'Gestion des groupes personnalisés';
+$string['view:view'] = 'Voir la page de gestion des groupes personnalisés';
+$string['visible'] = 'Visible';
+$string['hidden'] = 'Caché';
+$string['teststring'] = 'Chaîne de test gestion des groupes personnalisés';
+$string['coursesettings'] = 'Paramètres du cours';
+$string['groupsettings'] = 'Paramètres du groupe';
+$string['sessionstatus'] = 'Statut de la session';
+$string['sessionstatus_cancelled'] = 'Annulée';
+$string['sessionstatus_maintained'] = 'Maintenue';
+$string['location'] = 'Lieu';
+$string['teachers'] = 'Formateurs';
+$string['nostudents'] = 'Nombre des stagiaires inscrits';
+$string['participants'] = 'Participants';
+$string['startdate'] = 'Date de début';
+$string['enddate'] = 'Date de fin';
+$string['groupsettings'] = 'Paramètres du groupe';
+$string['groupdescription_default'] = 'Description du groupe';
+$string['noteachersassigned'] = 'Aucun formateur assigné';
+$string['nolocation'] = 'Aucun lieu défini';
+$string['filter'] = 'Appliquer les filtres';
+$string['resetfilters'] = 'Réinitialiser les filtres';
+$string['placeholdercoursename'] = 'Ex : Cours 1';
+$string['placeholdergroupname'] = 'Ex : Groupe 1';
+$string['placeholderteacher'] = 'Ex : Clémence Dupont';
+$string['groupname'] = 'Nom du groupe:  ';
+$string['groupname_help'] = 'Nom du groupe à rechercher';
+$string['coursename'] = 'Nom du cours:  ';
+$string['coursename_help'] = 'Nom du cours à rechercher';
+$string['teacher'] = 'Formateur:  ';
+$string['teacher_help'] = 'Nom du formateur à rechercher';
+$string['showingresults'] = 'Affichage de {$a->start}–{$a->end} sur {$a->total} résultats';
+$string['selectmonth'] = 'Choisir le mois';
+$string['nogroupsfound'] = 'Aucun groupe trouvé';
+$string['today'] = 'Aujourd\'hui';
