@@ -5,13 +5,13 @@
 ## English
 
 ### Description
-The Custom Groups Management plugin for Moodle provides tools to manage custom groups efficiently. It allows you to filter courses and groups by course name, group name, teacher, and month. The plugin includes pagination, responsive design, and user-friendly interfaces for viewing details and managing group settings.
+The Custom Groups Management plugin for Moodle provides tools to manage groups with session dates efficiently.
 
 ### Features
-- **Filtering:** Search courses and groups by various criteria.
+- **Filtering:** Search groups (only those  with session dates) by : course fullname, group name, teacher, and month (based on session dates of the group).
 - **Pagination:** Navigate through results seamlessly.
-- **User Interface:** Clean, responsive design with custom styles.
-- **Group Details:** Display comprehensive details including teacher info, session dates, and more.
+- **User Interface:** Responsive design with custom styles.
+- **Group Details:** Display comprehensive details including teacher info, session dates, link to course parameters and more.
 
 ### Installation
 1. **Clone or Download:** Clone the repository or download the ZIP file.
@@ -23,21 +23,18 @@ The Custom Groups Management plugin for Moodle provides tools to manage custom g
 - Use the filters to search by course name, group name, teacher, or month.
 - Click the settings buttons to configure course or group details.
 
-### Contributing
-Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
-
 ---
 
 ## Français
 
 ### Description
-Le plugin **Custom Groups Management** pour Moodle offre des outils pour gérer efficacement des groupes personnalisés. Il permet de filtrer les cours et les groupes par nom de cours, nom du groupe, enseignant et mois. Le plugin propose un système de pagination, un design réactif et des interfaces conviviales pour visualiser les détails et gérer les réglages des groupes.
+Le plugin **Custom Groups Management** pour Moodle offre des outils pour gérer efficacement les groupes avec des dates de session.
 
 ### Fonctionnalités
-- **Filtrage :** Rechercher des cours et groupes selon divers critères.
+- **Filtrage :** Rechercher des groupes (seulement ceux avec des dates de session) par : nom complet du cours, nom du groupe, enseignant et mois (basé sur les dates de session)
 - **Pagination :** Naviguer facilement dans les résultats.
-- **Interface Utilisateur :** Design épuré et réactif avec des styles personnalisés.
-- **Détails du Groupe :** Afficher des informations complètes incluant les enseignants, les dates de session, etc.
+- **Interface Utilisateur :** Design responsive avec des styles personnalisés.
+- **Détails du Groupe :** Afficher des informations complètes incluant les enseignants, les dates de session, le lien vers les paramètres du cours etc.
 
 ### Installation
 1. **Cloner ou Télécharger :** Cloner le dépôt ou télécharger le fichier ZIP.
@@ -49,11 +46,7 @@ Le plugin **Custom Groups Management** pour Moodle offre des outils pour gérer 
 - Utiliser les filtres pour rechercher par nom de cours, nom de groupe, enseignant ou mois.
 - Cliquer sur les boutons de réglages pour configurer les détails du cours ou du groupe.
 
-### Contribution
-Les contributions sont les bienvenues ! Merci d'ouvrir une issue ou de soumettre une pull request pour toute amélioration ou correction de bug.
-
 ---
 
 ## License / Licence
-This project is licensed under the GNU GPL v3.  
-Ce projet est sous licence GNU GPL v3.
+LMS Factory
